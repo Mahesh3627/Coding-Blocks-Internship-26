@@ -1,0 +1,50 @@
+.container{
+    border: 3px solid black;
+    /* height: 500px; */
+    width: 40vw;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 10px 5px 10px black;
+}
+
+.input{
+    /* border: 2px solid green; */
+    padding: 10px;
+    
+}
+
+#inp{
+    width: 70%;
+    height: 30px;
+    font-size: 1.3em;
+}
+
+#btn{
+    width: 20%;
+    height: 30px;
+    background-color: grey;
+}
+
+.task{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+.section-A{
+    margin-left: 30px;
+}
+.section-B{
+    margin-right: 80px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.section-B span:hover{
+    cursor: pointer;
+}
